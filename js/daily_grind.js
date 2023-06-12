@@ -83,6 +83,7 @@ switch (today) {
       day: "Wednesday",
       desc: `I like it cold`
     }
+    
     break;
   case 4: 
     today = "Thursday ";
@@ -122,9 +123,8 @@ switch (today) {
     today = "Not Sure";
 }
 
-// alert(coffeeTemplate(coffee))
 document.getElementById("coffee-cup").innerHTML = coffeeTemplate(coffee);
 document.querySelector("html").style.backgroundColor = coffee.color;
 
 // alert(today);
-console.log(coffee);
+// console.log(coffee);
